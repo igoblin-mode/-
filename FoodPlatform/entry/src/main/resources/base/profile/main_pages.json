@@ -1,0 +1,12 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/Register/Register",
+    "pages/MainPage",
+    "pages/Search/SearchPage",
+    "pages/Search/SearchResult",
+    "pages/Manager",
+    "pages/Shop/ShopDetail",
+    "pages/Recommend/RecommendDetail"
+  ]
+}

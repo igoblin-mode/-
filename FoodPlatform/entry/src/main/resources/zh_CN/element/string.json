@@ -1,0 +1,8 @@
+{
+  "string": [
+    {
+      "name": "read_imagevideo_reason",
+      "value": "应用需要读取设备中的图片和视频以提供预览和编辑功能"
+    }
+  ]
+}

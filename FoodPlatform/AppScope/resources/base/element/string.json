@@ -1,0 +1,12 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "FoodPlatform"
+    },
+    {
+      "name": "software_name",
+      "value": "美食探店系统"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\hx\\.ohos\\config\\default_FoodPlatform_M4rIIqnic9J1PxmL63OeFS85PguAfw5ceh6kbfqlptM=.cer",
+          "storePassword": "0000001955335B7E263C5B6C79C468A0FEA9992D62BF43EE31CD4C04875E379FA70DFF9A380BE36D13",
+          "keyAlias": "debugKey",
+          "keyPassword": "00000019EAB30427510E4B4AB0C7E740DACEEB2A437421664BF588D73011DC8AFD5774269F2B5C8CF1",
+          "profile": "C:\\Users\\hx\\.ohos\\config\\default_FoodPlatform_M4rIIqnic9J1PxmL63OeFS85PguAfw5ceh6kbfqlptM=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\hx\\.ohos\\config\\default_FoodPlatform_M4rIIqnic9J1PxmL63OeFS85PguAfw5ceh6kbfqlptM=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.2(14)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
